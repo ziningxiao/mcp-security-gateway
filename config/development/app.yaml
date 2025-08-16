@@ -1,0 +1,27 @@
+# Development Configuration
+app:
+  debug: true
+  log_level: DEBUG
+  
+security:
+  models:
+    fast_classifier:
+      path: "models/fast_classifier_v1.pkl"
+      threshold: 0.3
+    deep_analyzer:
+      path: "models/deep_analyzer_v1.pkl" 
+      threshold: 0.7
+      
+  thresholds:
+    allow: 0.3
+    block: 0.7
+    
+database:
+  url: "postgresql://user:pass@localhost:5432/mcp_security_dev"
+  
+redis:
+  url: "redis://localhost:6379"
+  
+monitoring:
+  enable_tracing: true
+  metrics_port: 9090
