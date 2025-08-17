@@ -2,7 +2,7 @@
 Data models for MCP Security Gateway
 """
 from pydantic import BaseModel, Field
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from datetime import datetime
 from enum import Enum
 
@@ -35,7 +35,7 @@ class SecurityDecision(BaseModel):
     confidence: float = Field(..., ge=0.0, le=1.0)
     threat_type: ThreatType
     trace_id: str
-    explanation: Dict[str, any]
+    explanation: Dict[str, Any]
     processing_time_ms: float
 
 class RequestTrace(BaseModel):
