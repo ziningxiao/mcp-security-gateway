@@ -36,10 +36,6 @@ docker-compose up -d
 5. **Observability & Explainability** - Complete audit trail with SHAP explanations
 
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development workflow and guidelines.
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
