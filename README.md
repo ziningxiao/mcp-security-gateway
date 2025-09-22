@@ -35,13 +35,6 @@ docker-compose up -d
 4. **Continuous Learning Pipeline** - Feedback-driven model improvement
 5. **Observability & Explainability** - Complete audit trail with SHAP explanations
 
-## Documentation
-
-- [Architecture Design](docs/architecture.md)
-- [Threat Taxonomy](docs/threats.md)
-- [API Reference](docs/api.md)
-- [Deployment Guide](docs/deployment.md)
-- [Development Setup](docs/development.md)
 
 ## Contributing
 
